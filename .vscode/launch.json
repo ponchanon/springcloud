@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceAApplication<ServiceAApplication>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.ServiceAApplication",
+            "projectName": "ServiceAApplication",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServer2Application<com.acme-ConfigServer2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.ConfigServer2Application",
+            "projectName": "com.acme-ConfigServer2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceAApplication<com.springcloud-ServiceAApplication>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.ServiceAApplication",
+            "projectName": "com.springcloud-ServiceAApplication",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
